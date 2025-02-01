@@ -1,0 +1,60 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/abril-fatface-v23-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/itim-v14-latin-regular.woff2') format('woff2');
+  }
+
+* {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    color: #212121;
+    background-color: #DEB3FF;
+}
+
+h1 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+h3 {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #212121;
+}
+
+body {
+    padding-left: 40px;
+    padding-right: 20%;
+    font-size: 0.5cm;
+}
+
+    /*---MEDIA QUERIES--*/
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding-left: 20px;
+        padding-right: 50px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
